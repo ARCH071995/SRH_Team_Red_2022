@@ -1,0 +1,530 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 19,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "0621410050",
+"LONGITUDE": "8.495792142940026",
+"ADDRESS": "Theodor-Heuss-Anlage 2, 68169 Mannheim",
+"ID": 16,
+"LATITUDE": "49.48106301098934",
+"NAME": "Luisenpark"
+        }
+      },
+"end": {
+"identity": 13,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Mannheim",
+"ID": 12
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 19,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "0621410050",
+"LONGITUDE": "8.495792142940026",
+"ADDRESS": "Theodor-Heuss-Anlage 2, 68169 Mannheim",
+"ID": 16,
+"LATITUDE": "49.48106301098934",
+"NAME": "Luisenpark"
+            }
+          },
+          "relationship": {
+"identity": 12,
+"start": 19,
+"end": 13,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Mannheim",
+"ID": 12
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 20,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "0621410050",
+"LONGITUDE": "8.48303600986615",
+"ADDRESS": "Max-Joseph-Straße 64, 68169 Mannheim",
+"ID": 17,
+"LATITUDE": "49.50297656688218",
+"NAME": "Herzogenried Park"
+        }
+      },
+"end": {
+"identity": 13,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Mannheim",
+"ID": 12
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 20,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "0621410050",
+"LONGITUDE": "8.48303600986615",
+"ADDRESS": "Max-Joseph-Straße 64, 68169 Mannheim",
+"ID": 17,
+"LATITUDE": "49.50297656688218",
+"NAME": "Herzogenried Park"
+            }
+          },
+          "relationship": {
+"identity": 13,
+"start": 20,
+"end": 13,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 13,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Mannheim",
+"ID": 12
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 21,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "03060980018",
+"LONGITUDE": "13.403362727153297",
+"ADDRESS": "Gleimstraße 55, 10437 Berlin",
+"ID": 18,
+"LATITUDE": "52.542550054582584",
+"NAME": "Mauerpark"
+        }
+      },
+"end": {
+"identity": 14,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 21,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "03060980018",
+"LONGITUDE": "13.403362727153297",
+"ADDRESS": "Gleimstraße 55, 10437 Berlin",
+"ID": 18,
+"LATITUDE": "52.542550054582584",
+"NAME": "Mauerpark"
+            }
+          },
+          "relationship": {
+"identity": 14,
+"start": 21,
+"end": 14,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 14,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 22,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "03083850100",
+"LONGITUDE": "13.30561312715056",
+"ADDRESS": "Königin-Luise-Straße 6-8, 14195 Berlin",
+"ID": 19,
+"LATITUDE": "52.45455710751621",
+"NAME": "Botanical Garden and Botanical Museum"
+        }
+      },
+"end": {
+"identity": 14,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 22,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "03083850100",
+"LONGITUDE": "13.30561312715056",
+"ADDRESS": "Königin-Luise-Straße 6-8, 14195 Berlin",
+"ID": 19,
+"LATITUDE": "52.45455710751621",
+"NAME": "Botanical Garden and Botanical Museum"
+            }
+          },
+          "relationship": {
+"identity": 15,
+"start": 22,
+"end": 14,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 14,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 23,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "01454677789",
+"LONGITUDE": "8.651685442400911",
+"ADDRESS": "69123 Heidelberg",
+"ID": 20,
+"LATITUDE": "49.41452375928352",
+"NAME": "SRH Science Park"
+        }
+      },
+"end": {
+"identity": 15,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Heidelberg",
+"ID": 14
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 23,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "01454677789",
+"LONGITUDE": "8.651685442400911",
+"ADDRESS": "69123 Heidelberg",
+"ID": 20,
+"LATITUDE": "49.41452375928352",
+"NAME": "SRH Science Park"
+            }
+          },
+          "relationship": {
+"identity": 16,
+"start": 23,
+"end": 15,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 15,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Heidelberg",
+"ID": 14
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 24,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "06221658880",
+"LONGITUDE": "8.717895698221696",
+"ADDRESS": "Schloß-Wolfsbrunnenweg 18, 69117 Heidelberg",
+"ID": 21,
+"LATITUDE": "49.41104827466864",
+"NAME": "Heidelberg Castle Garden"
+        }
+      },
+"end": {
+"identity": 15,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Heidelberg",
+"ID": 14
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 24,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "06221658880",
+"LONGITUDE": "8.717895698221696",
+"ADDRESS": "Schloß-Wolfsbrunnenweg 18, 69117 Heidelberg",
+"ID": 21,
+"LATITUDE": "49.41104827466864",
+"NAME": "Heidelberg Castle Garden"
+            }
+          },
+          "relationship": {
+"identity": 17,
+"start": 24,
+"end": 15,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 15,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Heidelberg",
+"ID": 14
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 26,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "071122280",
+"LONGITUDE": "9.180610440531304",
+"ADDRESS": "Schloßpl., 70173 Stuttgart",
+"ID": 22,
+"LATITUDE": "48.77854173950212",
+"NAME": "Schlossplatz"
+        }
+      },
+"end": {
+"identity": 16,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Stuttgart",
+"ID": 15
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 26,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "071122280",
+"LONGITUDE": "9.180610440531304",
+"ADDRESS": "Schloßpl., 70173 Stuttgart",
+"ID": 22,
+"LATITUDE": "48.77854173950212",
+"NAME": "Schlossplatz"
+            }
+          },
+          "relationship": {
+"identity": 18,
+"start": 26,
+"end": 16,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 16,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Stuttgart",
+"ID": 15
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 27,
+"labels": [
+          "Places"
+        ],
+"properties": {
+"CONTACT": "032121239534",
+"LONGITUDE": "9.175897796352418",
+"ADDRESS": "Panoramastraße 33, 70174 Stuttgart",
+"ID": 23,
+"LATITUDE": "48.78740812945066",
+"NAME": "Chinese Garden Stuttgart"
+        }
+      },
+"end": {
+"identity": 16,
+"labels": [
+          "City"
+        ],
+"properties": {
+"LOCATION": "Stuttgart",
+"ID": 15
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 27,
+"labels": [
+              "Places"
+            ],
+"properties": {
+"CONTACT": "032121239534",
+"LONGITUDE": "9.175897796352418",
+"ADDRESS": "Panoramastraße 33, 70174 Stuttgart",
+"ID": 23,
+"LATITUDE": "48.78740812945066",
+"NAME": "Chinese Garden Stuttgart"
+            }
+          },
+          "relationship": {
+"identity": 19,
+"start": 27,
+"end": 16,
+"type": "LOCATED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 16,
+"labels": [
+              "City"
+            ],
+"properties": {
+"LOCATION": "Stuttgart",
+"ID": 15
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  }
+]
