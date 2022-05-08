@@ -1,0 +1,88 @@
+<!--Handlebar templates start-->
+{{!-- <script id="student-template" type="text/x-handlebars-template"> --}}
+<html>
+
+<head>
+    <style>
+        table,
+        td,
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        tr,
+        th,
+        td {
+            /*width: 100%;
+            overflow: auto;
+            position: relative;
+            height: auto;
+            margin-top: 70px;*/
+            padding: 5px;
+            text-align: left;
+        }
+
+        #sz {
+            font-size: 14px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table class="table table-striped">
+        <caption><B> Doctor Visit And Service Analysis </B></caption>
+        <thead>
+            <tr id="sz">
+                <th>DoctorName</th>
+                <th>RefDR</th>
+                <th>OPDIPDNO</th>
+                <th>BillType</th>
+                <th>PatientName </th>
+                <th>PatientRegNO</th>
+                <th>ServiceName</th>
+                <th>Rate</th>
+                <th>Quantity</th>
+                <th>Total Amount</th>
+                <th>Date </th>
+                <th>BillAmount</th>
+                <th>Discount</th>
+                <th>PaidAmount</th>
+                <th>BalanceAmount</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each List}}
+            <tr>
+                <td>{{ConsultantDoc }}</td>
+                <td>{{ RefferedDoc }}</td>
+                <td>{{ OPDIPDID }}</td>
+                <td>{{ BillType }}</td>
+                <td>{{PatientName }}</td>
+                <td>{{ PatientRegNo }}</td>
+                <td>{{ ServiceName }}</td>
+                <td>{{ Rate }}</td>
+                <td>{{ Quantity }}</td>
+                <td>{{ TotalAmount  }}</td>
+                <td>{{dateFormat BillDate 'YYYY-MM-DD' }}</td>
+                <td>{{ GrossAmount  }}</td>
+                <td>{{ DiscountAmount  }}</td>
+                <td>{{ PaidAmount }}</td>
+                <td>{{ BalanceAmount }}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!--Handlebar templates start-->
+{{!-- <script id="student-template" type="text/x-handlebars-template"> --}}
+<html>
+
+<head>
+
+    {{!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/js/bootstrap.min.js"> --}}
+    {{!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../node_modules/popper.js/dist/esm/popper.min.js">
+<link href="../node_modules/jquery/dist/jquery.min.js"> --}}
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+  
+  
+
+    body {
+      background-color: #e4e5e6;
+      font-family: Calibri, Myriad;
+     
+    }
+
+.maintable{
+ border-top: 1px dashed black; 
+ border-bottom: 1px dashed black;
+
+}
+tr{
+  border-bottom: 1px dashed black;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="row">
+<div class="col-md-8 offset-md-2 mt-5">
+<h5 style="border-style: solid;text-align:center;padding:8px">MIS Patient IPD Discharge Summary</h5>
+</div>
+  </div>
+  <div class="maintable">
+    <table>
+      {{!-- <caption>MIS Patient IPD Discharge Summary</caption> --}}
+      <thead >
+        <tr>
+          <th>RegNO</th>
+          <th>IPDNO</th>
+          <th>PatientName</th>
+          <th>Type</th>
+          <th>Age</th>
+          <th>Ward</th>
+          <th>EndResult</th>
+          <th>FinalDiagnosis</th>
+          <th>ConDoctor</th>
+          <th>RefDoctor</th>
+          <th>Dischargedate</th>
+          <th>Billamount</th>
+          <th>Paidamount</th>
+          <th>Balanceamount</th>
+          <th>Refundamt</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each List}}
+        <tr>
+         <div {{PatientRegNO}}></div>
+          <td>{{PatientRegNO}}</td>
+          <td>{{ PatientIPDNO }}</td>
+          <td>{{ PatientName }}</td>
+          <td>{{ PatientType }}</td>
+          <td>{{ Age }}</td>
+          <td>{{ Ward }}</td>
+          <td>{{ EndResult }}</td>
+          <td>{{ FinalDiagnosis }}</td>
+          <td>{{ conDoctor }}</td>
+          <td>{{ refDoctor }}</td>
+          <td>{{ dateFormat Dischargedate 'YYYY-MM-DD' }}</td>
+          <td>{{ billamount }}</td>
+          <td>{{ paidamount }}</td>
+          <td>{{ balanceamount }}</td>
+          <td>{{ Refundamt }}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
+
+{{!-- </script> --}}
+<!--Handlebar templates end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
