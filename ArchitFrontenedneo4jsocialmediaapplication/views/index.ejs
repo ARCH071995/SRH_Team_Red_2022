@@ -1,0 +1,38 @@
+<body style="background-color:#4a7eb1">
+
+<h1>Messenger: Social Media Application</h1>
+
+<h1>Hi TOM<h1/>
+<form>
+    <label style="font-size: large;">Enter the type of recommendations you want to get:</label><br>
+    <input id="textbox" type="text" name="">
+    <br><br>
+    <button onclick="getdata()">Search</button>
+</form>
+
+<ul id="list">
+    <% places.forEach(function(place){ %>
+    <li><%= place.NAME %></li>
+    <li><%= place.ADDRESS %></li>
+    <li><%= place.LATITUDE %></li>
+    <li><%= place.LONGITUDE %></li>
+    <br><br>
+    <% }) %>
+</ul>
+
+<script>
+    document.getElementById("list").style.display = "none";
+    async function getdata() {
+        //console.log("inside here")
+        var a = document.getElementById("textbox").textContent;
+        if (a != null || a == "Recreational Places") {
+            document.getElementById("list").style.display = "block";
+            await sleep(2);
+        }   
+    }
+    async function sleep(seconds) {
+        return new Promise((resolve) => setTimeout(resolve, seconds * 1000));
+    }   
+</script>
+
+</body>
