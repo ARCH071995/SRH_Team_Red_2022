@@ -1,0 +1,110 @@
+﻿[
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"LASTNAME": "Zanetello",
+"DOB": "6/29/1995",
+"USERNAME": "ezanetello4@blog.com",
+"FIRSTNAME": "Eryn",
+"ID": 4,
+"DP": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+"AGE": "25"
+      }
+    },
+    "c": {
+"identity": 14,
+"labels": [
+        "City"
+      ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"LASTNAME": "Defew",
+"DOB": "10/10/1996",
+"USERNAME": "kdefew3@sina.com.cn",
+"FIRSTNAME": "Katalin",
+"ID": 3,
+"DP": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+"AGE": "26"
+      }
+    },
+    "c": {
+"identity": 14,
+"labels": [
+        "City"
+      ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 7,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"LASTNAME": "Pavyer",
+"DOB": "3/25/1996",
+"USERNAME": "cpavyer7@youku.com",
+"FIRSTNAME": "Corry",
+"ID": 7,
+"DP": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+"AGE": "26"
+      }
+    },
+    "c": {
+"identity": 14,
+"labels": [
+        "City"
+      ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+      }
+    }
+  },
+  {
+    "p": {
+"identity": 9,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"LASTNAME": "Slowly",
+"DOB": "2/21/1998",
+"USERNAME": "eslowly9@bigcartel.com",
+"FIRSTNAME": "Ellis",
+"ID": 9,
+"DP": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+"AGE": "25"
+      }
+    },
+    "c": {
+"identity": 14,
+"labels": [
+        "City"
+      ],
+"properties": {
+"LOCATION": "Berlin",
+"ID": 13
+      }
+    }
+  }
+]
