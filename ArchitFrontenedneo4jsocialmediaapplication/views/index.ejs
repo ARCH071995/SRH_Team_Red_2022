@@ -7,15 +7,15 @@
     <label style="font-size: large;">Enter the type of recommendations you want to get:</label><br>
     <input id="textbox" type="text" name="">
     <br><br>
-    <button onclick="getdata()">Search</button>
+    <button type="button" onclick="getdata()">Search</button>
 </form>
 
 <ul id="list">
     <% places.forEach(function(place){ %>
     <li><%= place.NAME %></li>
     <li><%= place.ADDRESS %></li>
-    <li><%= place.LATITUDE %></li>
-    <li><%= place.LONGITUDE %></li>
+    <!-- <li><%= place.LATITUDE %></li>
+    <li><%= place.LONGITUDE %></li> -->
     <br><br>
     <% }) %>
 </ul>
