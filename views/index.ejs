@@ -1,0 +1,36 @@
+<body style="background-color:grey">
+
+<h1>Messenger: Social Media Application</h1>
+
+<h1>Welcome Tom Kerridge!<h1/>
+<form>
+    <label style="font-size: large;">Enter your hobby to find friends:</label><br>
+    <input id="textbox" type="text" name="">
+    <br><br>
+    <button type="button" onclick="getdata()">Search</button>
+</form>
+
+<ul id="list">
+    <% places.forEach(function(place){ %>
+    <li><%= place.FIRSTNAME %></li>
+    <li><%= place.LASTNAME %></li>
+    <br><br>
+    <% }) %>
+</ul>
+
+<script>
+    document.getElementById("list").style.display = "none";
+    async function getdata() {
+        //console.log("inside here")
+        var a = document.getElementById("textbox").textContent;
+        if (a != null || a == "dancing") {
+            document.getElementById("list").style.display = "block";
+            await sleep(2);
+        }   
+    }
+    async function sleep(seconds) {
+        return new Promise((resolve) => setTimeout(resolve, seconds * 1000));
+    }   
+</script>
+
+</body>
